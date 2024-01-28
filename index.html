@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bai tap buoi 2</title>
+</head>
+<body>
+  <style>
+    table, tr, th, td {
+        border: 1px solid #ddd;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+  </style>
+  <h1>Cau 1: Bai tap ve the a</h1>
+  <a href="google.com"><p>Viet dong nay bang the a. Khi click vao link sang trang google.com</p></a>
+  <a href="google.com" target="_blank">
+    <p>Viet dong nay bang the a. Khi click vao link sang trang google.com trong tab moi</p>
+  </a>
+
+  <h1>Cau 2: Bai tap ve the img</h1>
+  <p>
+    <b>Yeu cau: </b>Tao thu muc dat ten la images, sau do de hinh anh
+    bat ky vao thu muc images do. Tiep the, chen hinh anh do vao trang web 
+    bang cach su dung the img. Duong dan anh la dang relative (Duong dan tuong doi)
+  </p>
+  <img src="images/images-1.jpg" />
+
+  <h1>Cau 3: Bai tap ve the video</h1>
+  <p>
+    <b>Yeu cau: </b>Tao thu muc dat ten la videos, sau do de video bat ky vao thu muc video do.
+    Tiep theo, chen video do vao trang web bang cac su dung the video va the source. Duong dan video la dang relative (Duong dan tuong doi).
+    Dat kich thuoc video co width bang 720 va height bang 405 (tuong duong ty le 16/9).
+  </p>
+  <video controls autoplay muted width="720" height="405">
+    <source src="videos/Iroh Sings Leaves From the Vine (Little Soldier Boy)  Full Scene - Avatar- The Last Airbender.mp4" type="video/mp4" >
+  </video>
+
+  <h1>Cau 4: bai tap ve the table</h1>
+  <p>
+    <b>Yeu cau: </b>Dung the table, thead, tbody, tr, th, td da duoc hoc de ve bang sau:
+  </p>
+  <p>
+    <b>Luu y: </b>Copy doan code vao file de co them duong vien co table. Phan nay chua hoc nhung them vao cho de nhin.
+  </p>
+  <pre>
+    <style>
+      table, tr, th, td {
+          border: 1px solid #ddd;
+      }
+
+      th, td {
+          padding: 10px;
+      }
+    </style>
+  </pre>
+  <table>
+    <thead>
+      <tr>
+        <th colspan="3">Hoa don so 1234</th>
+        <th>Ngay 20/11/2022</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td colspan="2">
+          <p><b>Thong tin khach hang</b></p>
+          <p>Ho ten: Dang Phuong Nam</p>
+          <p>So dien thoai: 0123456789</p>
+          <p>Dia chi: so 123, duong Abc, thanh pho Ha Noi.</p>
+        </td>
+        <td colspan="2">
+          <p><b>Thong tin van chuyen don hang</b></p>
+          <P>Ho ten: Dang Phuong Nam</P>
+          <p>So dien thoai: 0987654321</p>
+          <p>Dia chi: so 234, duong Xyz, thanh pho Ha Noi</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Ten san pham</b>
+        </td>
+        <td>
+          <b>So luong</b>
+        </td>
+        <td>
+          <b>Don gia</b>
+        </td>
+        <td>
+          <b>Thanh tien</b>
+        </td>
+      </tr>
+      <tr>
+        <td>Giay nam cao cap</td>
+        <td>2</td>
+        <td>800.000d</td>
+        <td>1.600.000d</td>
+      </tr>
+      <tr>
+        <td>Giay nu cao cap</td>
+        <td>1</td>
+        <td>500.000d</td>
+        <td>1.000.000d</td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <b>Tam tinh</b>
+        </td>
+        <td>2.600.000d</td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <b>Thue VAT 10%</b>
+        </td>
+        <td>260.000d</td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <b>Tong tien</b>
+        </td>
+        <td>2.860.000d</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h1>Cau 5: Bai tap ve the ul, ol, li</h1>
+  <p>
+    <b>Yeu cau: </b>Tao danh sach sau su dung the ul, li 
+  </p>
+  <ul>
+    <li>Facebook</li>
+    <li>Twitter</li>
+    <li>Instagram</li>
+    <li>Youtube</li>
+  </ul>
+  <p>
+    <b>Yeu cau: </b>Tao danh sach sau su dung the ol, li 
+  </p>
+  <ol type="1">
+    <li>Thoi trang</li>
+    <li>Cong nghe</li>
+    <li>Do dien tu</li>
+    <li>Do gia dung</li>
+  </ol>
+  <p>
+    <b>Yeu cau: </b>Tao danh sach sau su dung the ol, li. Co kieu la chu La ma viet hoa 
+  </p>
+  <ol type="I">
+    <li>Hoc HTML5</li>
+    <li>Hoc CSS3</li>
+    <li>Hoc Bootstrap 4</li>
+    <li>Hoc JavaScript</li>
+  </ol>
+
+  <h1>Cau 6: Bai tap ve class va id</h1>
+  <p>
+    <b>Yeu cau: </b>Viet doan van duoi day va lam theo noi dung ben trong do 
+  </p>
+  <div class="test-class">Viet doan van nay su dung the div. Sau do the class co gia tri la "test-class" vao the div nay</div>
+  <div id="test-id">Viet doan van nay su dung the div. Sau do them id co gia tri la "test-id" vao the div nay</div>
+</body>
+</html>
